@@ -14,7 +14,7 @@ filename = filename +'@SansI@'
 i = 0
 while i < fLength:
     #TODO implement the algorithm, creating flength files and not printing when i = j
-    sansfilename = filename + str(i) + ".txt"
+    sansfilename = filename + str(i+1) + ".txt"
     j = 0
     with open(sansfilename, 'w') as fp:
         while j < fLength:
